@@ -1,0 +1,17 @@
+import { OffersCarousel, CategoriesCarousel } from "../../components";
+import { Banner, Container, } from "./styles"
+
+export const Home = () => {
+    return (
+        <main><Banner>
+            <h1>Bem Vindo(a)!</h1>
+        </Banner>
+            <Container>
+                <div>
+                    <CategoriesCarousel />
+                    <OffersCarousel />
+                </div>
+            </Container>
+        </main>
+    )
+}
