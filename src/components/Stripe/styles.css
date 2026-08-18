@@ -1,4 +1,4 @@
-.App {
+App {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
@@ -29,7 +29,6 @@
   margin-bottom: auto;
 }
 
-
 #payment-message {
   color: rgb(105, 115, 134);
   font-size: 16px;
@@ -46,7 +45,7 @@
 .button {
   background: #0055DE;
   font-family: Arial, sans-serif;
-  color: ${(props) => props.theme.white}fff;
+  color: #ffffff;
   border-radius: 4px;
   border: 0;
   padding: 12px 16px;
@@ -80,7 +79,7 @@
 }
 
 .spinner {
-  color: ${(props) => props.theme.white}fff;
+  color: #ffffff;
   font-size: 22px;
   text-indent: -99999px;
   margin: 0px auto;
@@ -165,13 +164,18 @@ table {
   font-size: 14px;
   border-collapse: collapse;
 }
+
 table tbody tr:first-child td {
-  border-top: 1px solid #E6E6E6; /* Top border */
+  border-top: 1px solid #E6E6E6;
+  /* Top border */
   padding-top: 10px;
 }
+
 table tbody tr:last-child td {
-  border-bottom: 1px solid #E6E6E6; /* Bottom border */
+  border-bottom: 1px solid #E6E6E6;
+  /* Bottom border */
 }
+
 td {
   padding-bottom: 10px;
 }
@@ -194,7 +198,7 @@ td {
   text-decoration: none;
   text-align: center;
   background: #0055DE;
-  color: ${(props) => props.theme.white}fff;
+  color: #ffffff;
   border-radius: 4px;
   border: 0;
   padding: 12px 16px;
@@ -208,19 +212,23 @@ td {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
+
 @keyframes fadeInAnimation {
   to {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  form, #payment-status {
+
+  form,
+  #payment-status {
     width: 80vw;
     min-width: initial;
   }

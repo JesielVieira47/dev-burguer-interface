@@ -55,7 +55,7 @@ border-radius: 10px;
 `
 
 export const CategoryButton = styled(Link)`
-color: ${(props) => props.theme.white}fff;
+color: ${(props) => props.theme.white}ff;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px 30px;
     border-radius: 30px;

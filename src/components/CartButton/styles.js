@@ -7,7 +7,7 @@ export const ContainerButton = styled.button`
   border: 0;
   border-radius: 6px;
   font-size: 27px;
-  color: ${(props) => props.theme.white}fff;
+  color: ${(props) => props.theme.white};
   cursor: pointer; /* Boa prática para mostrar a "mãozinha" no clique */
 
   /* Transforma o botão em um container Flexbox */
